@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#070B18"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB347"/>
+      <stop offset="100%" stop-color="#FF7A1A"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D8EF8"/>
+      <stop offset="100%" stop-color="#00E87A"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E87A"/>
+      <stop offset="100%" stop-color="#3D8EF8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="32" height="32" rx="7" fill="url(#bg)"/>
+  <!-- Wi-Fi arcs above the house -->
+  <path d="M6 10 C10 5.5, 22 5.5, 26 10" stroke="url(#wave)" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.95"/>
+  <path d="M9 12.5 C12 9.5, 20 9.5, 23 12.5" stroke="url(#wave)" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Wi-Fi center dot -->
+  <circle cx="16" cy="14.6" r="1.1" fill="#00E87A"/>
+  <!-- House roof -->
+  <path d="M16 15.8 L7 21.5 L9 21.5 L9 27 L23 27 L23 21.5 L25 21.5 Z" fill="url(#house)"/>
+  <!-- House door -->
+  <rect x="14.5" y="22.5" width="3" height="4.5" rx="0.4" fill="#0d1b2a"/>
+  <!-- Window left -->
+  <rect x="10.7" y="22.7" width="2.3" height="2.3" rx="0.35" fill="#070B18" opacity="0.85"/>
+  <!-- Window right -->
+  <rect x="19" y="22.7" width="2.3" height="2.3" rx="0.35" fill="#070B18" opacity="0.85"/>
+  <!-- Shield + check overlay (top-right corner) -->
+  <path d="M24 1.6 L30 3.4 L30 7.6 C30 9.6 27.6 11.2 24 12.2 C20.4 11.2 18 9.6 18 7.6 L18 3.4 Z" fill="url(#shield)"/>
+  <path d="M21 7.4 L23 9.4 L27 5.4" stroke="#fff" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
